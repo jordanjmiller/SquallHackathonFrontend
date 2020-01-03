@@ -14,7 +14,7 @@ function App() {
         <div>
           <NavLink className='navLink' to='/'><h2>Squall</h2></NavLink>
         </div>
-        <nav>
+        <nav> 
           <p>About</p>
           <NavLink className='navLink' to='/'>How it works</NavLink>
           <NavLink className='navLink' to='/Login'>Login</NavLink>
