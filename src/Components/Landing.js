@@ -54,7 +54,7 @@ export default function Landing() {
                     <p>Enter your information to sign up for alerts</p>
                     <input className='landingInputHalf' type='Text' required placeholder='First Name'/>
                     <input className='landingInputHalf' type='Text' required placeholder='Last Name'/>
-                    <input className='landingInputFull' type='Text' required placeholder='Email'/>
+                    <input className='landingInputFull' type='email' required placeholder='Email'/>
                     <input className='landingInputHalf' type='Text' required placeholder='Phone (Ex. 123456789)'/>
                     <select className='landingInputHalf' required>
                         <option value="none" selected disabled hidden> Select Your City </option> 
@@ -63,8 +63,8 @@ export default function Landing() {
                         <option value="Chicago">Chicago</option>
                         <option value="Texas">Texas</option>
                     </select>
-                    <input className='landingInputFull' type='Text' required placeholder='Password'/>
-                    <input className='landingInputFull' type='Text' required placeholder='Confirm Password'/>
+                    <input className='landingInputFull' type='password' required placeholder='Password'/>
+                    <input className='landingInputFull' type='password' required placeholder='Confirm Password'/>
                     <button onClick={handleSubmit}>Sign Up</button>
                 </div>
             </div>

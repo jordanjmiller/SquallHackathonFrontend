@@ -159,6 +159,7 @@ input:checked + .slider:before {
   border: 1px solid #eceaea;
   background-color: #E5E5E5;
   width: 65%;
+  height: 90vh;
   border-radius: 5px;
   margin: 1.5% auto 0 auto;
 }
@@ -188,7 +189,7 @@ input:checked + .slider:before {
 .innerAccountCard label {
   width: 100%;
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 .innerAccountCard button {
   background-color: #0E93DE;
