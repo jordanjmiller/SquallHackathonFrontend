@@ -91,7 +91,7 @@ export default function Landing() {
                 <div className='landingWeather'>
                     <div className='landingWeatherInner'> 
                         <h2>Weather can change in an instant.</h2>
-                        <p>Squall sends residents of Boulder, CO a text every time there’s a sudden and unforeseen weather event.</p>
+                        <p>Squall sends you a text every time there’s a sudden and unforeseen weather event.</p>
                         <div>
                             <button style={{backgroundColor: '#0E93DE', color: 'white'}}>Get Started</button>
                             <button style={{backgroundColor: 'white', color: '#0E93DE', border: '2px solid #0E93DE'}}>Learn More</button>
@@ -117,11 +117,10 @@ export default function Landing() {
                 </div>
                 <div className='landingBoulderites'>
                     <div className='landingBoulderitesInner'>
-                        <h2>Our Service for Boulderites</h2>
-                        <p>The weather in Boulder, CO is unpredictable. You might have started the day in short sleeves, 
-                            but as the day goes on the temperature drops and now it's hailing. Sudden weather changes are 
-                            uncomfortable when you’re not ready for them. With Squall, we send you text notifications when 
-                            there’s an incoming weather event so that you can make a plan.
+                        <h2>Our Service</h2>
+                        <p>Weather is unpredictable. You might have started the day in short sleeves, but as the day goes on the temperature drops
+                             and now it's hailing. Sudden weather changes are uncomfortable when you’re not ready for them. With Squall, we send you 
+                             text notifications when there’s an incoming weather event so that you can make a plan.
                         </p>
                     </div>
                 </div>
