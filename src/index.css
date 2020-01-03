@@ -33,10 +33,11 @@ body {
   font-family: 'Lato', sans-serif;
   color: black;
   font-size: 1.8rem;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
   line-height: 1.6;
   overflow: auto;
   margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: 4.5rem;
@@ -63,31 +64,42 @@ a {
   width: 99.8%;
   height: 80px;
 }
+.header h2 {
+  color: white;
+  text-decoration: none;
+}
+.header h2:hover {
+  text-decoration: underline;
+}
 .header div {
   margin-left: 9%;
 }
 .header nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: #0E93DE;
-  width: 280px;
+  width: 380px;
   margin-right: 9%;
 }
 .header nav a {
+  margin: 0;
+  padding: 0;
   color: white;
 }
 .header nav a:hover {
   text-decoration: underline;
 }
+.header nav p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 footer {
-  position: absolute;
-  bottom: 32px;
-  left: 50%;
-  margin: 3.5% auto 0 auto;
+  margin: -60px 0 0 0;
 }
 footer p {
   width: 115px;
-  margin-left: -57.5px;
+  margin: 0 auto;
 }
 /* The switch - the box around the slider */
 .switch {
@@ -186,4 +198,144 @@ input:checked + .slider:before {
   width: 100%;
   height: 64px;
   margin: 32px auto 0 auto;
+}
+.landingContainer {
+  width: 100%;
+}
+.landingWeather {
+  border: 1px solid black;
+  width: 100%;
+  height: 20.02%;
+}
+.landingWeatherInner {
+  width: 61.3%;
+  margin: 128px 22.8% 128px 15.8%;
+}
+.landingWeatherInner h2 {
+  font-weight: 1000;
+  margin: 0;
+}
+.landingWeatherInner p {
+  font-size: 2.3rem;
+  width: 80%;
+  margin: 0;
+}
+.landingWeatherInner div {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.landingWeatherInner div button {
+  font-weight: 800;
+  width: 48.5%;
+  height: 64px;
+  margin-top: 32px;
+  border: none;
+  border-radius: 5px;
+}
+.landingWeatherInner div buttonhover {
+  cursor: pointer;
+}
+.landingHowIt {
+  border: 1px solid black;
+  background-color: #0E93DE;
+  width: 100%;
+  height: 20.04%;
+}
+.landingHowItInner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 82%;
+  margin: 0 auto;
+}
+.landingHowItInner h2 {
+  color: white;
+  width: 90%;
+  text-align: center;
+  margin: 64px auto 48px auto;
+}
+.landingHowItInner div {
+  background-color: white;
+  border-radius: 5px;
+  width: 32%;
+  margin-bottom: 128px;
+}
+.landingHowItInner div h3 {
+  font-size: 1.5rem;
+  margin: 40px 0 24px 40px;
+}
+.landingHowItInner div p {
+  font-size: 1.3rem;
+  margin: 0 40px 65px 40px;
+  text-align: left;
+}
+.landingBoulderites {
+  border: 1px solid black;
+  width: 100%;
+}
+.landingBoulderitesInner {
+  width: 61.3%;
+  margin: 128px 22.8% 128px 15.8%;
+}
+.landingBoulderitesInner h2 {
+  margin: 0;
+}
+.landingBoulderitesInner p {
+  font-size: 2.15rem;
+  margin: 0;
+}
+.landingGetStarted {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  background-color: #0E93DE;
+  width: 100%;
+}
+.landingGSInnerDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  color: white;
+  width: 40%;
+}
+.landingGSInnerDiv h2 {
+  width: 90%;
+  text-align: center;
+  font-weight: 800px;
+  margin: 64px auto 0 auto;
+}
+.landingGSInnerDiv p {
+  font-weight: 600;
+  width: 80%;
+  text-align: center;
+  margin: 16px auto;
+}
+.landingGSInnerDiv button {
+  color: #0E93DE;
+  font-weight: 900;
+  border-radius: 5px;
+  width: 48.2%;
+  margin: 40px auto 277px auto;
+  height: 64px;
+}
+.landingGSInnerDiv input {
+  height: 61px;
+}
+.landingInputHalf {
+  width: 48%;
+  margin: 0 0 0 0;
+  margin-top: 24px;
+  border: none;
+  border-radius: 5px;
+  text-indent: 24px;
+}
+.landingInputFull {
+  width: 100%;
+  margin: 0 0 0 0;
+  margin-top: 24px;
+  border: none;
+  border-radius: 5px;
+  text-indent: 24px;
 }
