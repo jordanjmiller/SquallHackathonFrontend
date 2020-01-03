@@ -22,6 +22,10 @@ function App() {
       </header>
       
         <Route exact path='/Account' render={props => <Account {...props} />} />
+
+      <footer>
+          <p>2019 Ⓒ Squall</p>
+      </footer>
     </div>
   );
 }

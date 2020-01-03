@@ -30,6 +30,10 @@ export default function Account() {
         // console.log(e.target.checked);
     }
 
+    const handleSave = () => {
+        console.log('handleSave');
+    }
+
     return (
         <div className='accountContainer'>
             <div className='accountCard'>
@@ -39,7 +43,7 @@ export default function Account() {
 
                     <h3>Turn Texts On or Off</h3>
                     <div>
-                        <p>Enable Texts</p>
+                        <p style={{width: '181px'}}>Enable Texts</p>
                         <span style={{marginRight: '10px'}}>Off</span>
                         <label className="switch" style={{width:'60px'}}>
                             <input type="checkbox" />
@@ -48,7 +52,7 @@ export default function Account() {
                         <span style={{marginLeft: '10px'}}>On</span>
                     </div>
                     
-                    <h3>Choose your Alerts</h3>
+                    <h3 style={{marginTop: '0'}}>Choose your Alerts</h3>
 
                     <label> <input type="radio" name='0' value="option1" onClick={handleClick} checked={isChecked[0]} /> Extreme Cold </label>
                     <label> <input type="radio" name='1' value="option1" onClick={handleClick} checked={isChecked[1]} /> Extreme Hot </label>
@@ -60,6 +64,7 @@ export default function Account() {
                     <label> <input type="radio" name='7' value="option1" onClick={handleClick} checked={isChecked[7]} /> Snow Showers </label>
                     <label> <input type="radio" name='8' value="option1" onClick={handleClick} checked={isChecked[8]} /> Blizzard </label>
                     <label style={{margin: '0'}}> <input type="radio" name='9' value="option1" onClick={handleClick} checked={isChecked[9]} /> Tornado </label>
+                    <button onClick={handleSave}>Save</button>
                 </div>
             </div>
         </div>
